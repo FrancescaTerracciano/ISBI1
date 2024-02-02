@@ -17,10 +17,10 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from statsmodels.tsa.stattools import adfuller
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.preprocessing import MinMaxScaler
-from tensorflow import keras
-from keras.layers import Dense, SpatialDropout3D
-from keras.models import Sequential
-from keras.optimizers import Adam
+from tensorflow.keras.layers import Dense, SpatialDropout3D
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.optimizers import Adam
+
 
 ## PAGE CONFIGURATION ##
 st.set_page_config(
